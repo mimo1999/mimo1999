@@ -13,12 +13,12 @@ agentic and RAG systems, across fintech, healthcare, and industrial R&D.
 
 | Project | What it does |
 |---|---|
-| [Clinical RAG]([https://github.com/mimo1999](https://github.com/mimo1999/Clininal_guideline_RAG)) | Fully offline German clinical-guideline assistant — hybrid BM25 + dense retrieval, cross-encoder reranking, 88.9% Recall@5, 100% refusal correctness on out-of-domain questions |
-| [Research Swarm]([https://github.com/mimo1999](https://github.com/mimo1999/research-swarm)) | Multi-agent research system (LangGraph) with reranked RAG, structured outputs, and human-in-the-loop review; nDCG@10 0.749 on SciFact with a 10x smaller embedding model |
-| [GeoPulse](https://github.com/mimo1999) | Transformer + GNN geopolitical risk platform, 71.6% directional accuracy at 28 days over a 53-fold walk-forward backtest |
-| [Flowify]([https://github.com/mimo1999](https://github.com/mimo1999/Flowify_toolkit)) | GraphRAG code comprehension tool — semantic graphs, AST analysis, MCP-compatible API, offline no-LLM mode |
-| [Multimodal AdLD Detection]([https://github.com/mimo1999](https://github.com/mimo1999/asd_detector)) | Cross-attention model detecting laryngeal dystonia biomarkers from audio + endoscopy; manuscript submitted to *Journal of Voice* |
-| [ChemoGAM]([https://github.com/mimo1999/](https://github.com/mimo1999/ChemoTreeVsDLGAM)) | Interpretable GAMs for chemotherapy risk prediction on MIMIC-IV, matching CatBoost (0.826 vs 0.818 AUROC); shipped as a pip package |
+| [Clinical RAG](https://github.com/mimo1999/Clininal_guideline_RAG) | Fully offline German clinical-guideline assistant — hybrid BM25 + dense retrieval, cross-encoder reranking, 88.9% Recall@5, 100% refusal correctness on out-of-domain questions |
+| [Research Swarm](https://github.com/mimo1999/research-swarm) | Multi-agent research system (LangGraph) with reranked RAG, structured outputs, and human-in-the-loop review; nDCG@10 0.749 on SciFact with a 10x smaller embedding model |
+| [GeoPulse](https://github.com/mimo1999/GeoPulse) | Transformer + GNN geopolitical risk platform, 71.6% directional accuracy at 28 days over a 53-fold walk-forward backtest |
+| [Flowify](https://github.com/mimo1999/Flowify_toolkit) | GraphRAG code comprehension tool — semantic graphs, AST analysis, MCP-compatible API, offline no-LLM mode |
+| [Multimodal AdLD Detection](https://github.com/mimo1999/asd_detector) | Cross-attention model detecting laryngeal dystonia biomarkers from audio + endoscopy; manuscript submitted to *Journal of Voice* |
+| [ChemoGAM](https://github.com/mimo1999/ChemoTreeVsDLGAM) | Interpretable GAMs for chemotherapy risk prediction on MIMIC-IV, matching CatBoost (0.826 vs 0.818 AUROC); shipped as a pip package |
 
 ## Tools I work with
 
