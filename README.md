@@ -1,10 +1,5 @@
 # Hi, I'm Maitreya 👋
 
-<<<<<<< HEAD
-AI/ML Engineer with 3+ years of experience in domains like FinTech, healthcare, and industrial R&D.
-
-Experience across data processing, modelling, visualization, deployments, and CI/CD.
-=======
 AI/ML engineer based in Nuremberg, Germany. I build production ML systems and, lately, a lot of
 agentic and RAG systems, across fintech, healthcare, and industrial R&D.
 
@@ -39,4 +34,3 @@ outputs, context engineering
 - 🌐 Portfolio: [mimo1999.github.io](https://mimo1999.github.io)
 - 💼 LinkedIn: [linkedin.com/in/maitreya-mohapatra](https://www.linkedin.com/in/maitreya-mohapatra/)
 - 📫 Email: mimo.mohapatra@gmail.com
->>>>>>> origin/main
