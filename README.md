@@ -1,12 +1,10 @@
 # Hi, I'm Maitreya 👋
 
-<<<<<<< HEAD
-AI/ML Engineer with 3+ years of experience in domains like FinTech, healthcare, and industrial R&D.
+Software Developer (Data & AI) with 3+ years of experience in domains like FinTech, healthcare, and industrial R&D.
 
-Experience across data processing, modelling, visualization, deployments, and CI/CD.
+Experience across data processing, modelling (Classical ML, CV and Acoustic), Agentic AI, deployments, and CI/CD.
 =======
-AI/ML engineer based in Nuremberg, Germany. I build production ML systems and, lately, a lot of
-agentic and RAG systems, across fintech, healthcare, and industrial R&D.
+Software Developer (Data & AI) · Nuremberg. Data platforms, ML systems, and LLM tooling across fintech, healthcare, and industrial R&D.
 
 - 🎓 M.Sc. Artificial Intelligence, FAU Erlangen-Nürnberg (graduating Sept 2026)
 - 🛠️ 3+ years shipping ML in production: HighRadius (fintech, Associate Software Engineer) and
@@ -18,25 +16,26 @@ agentic and RAG systems, across fintech, healthcare, and industrial R&D.
 
 | Project | What it does |
 |---|---|
-| [Clinical RAG](https://github.com/mimo1999/Clininal_guideline_RAG) | Fully offline German clinical-guideline assistant — hybrid BM25 + dense retrieval, cross-encoder reranking, 88.9% Recall@5, 100% refusal correctness on out-of-domain questions |
-| [Research Swarm](https://github.com/mimo1999/research-swarm) | Multi-agent research system (LangGraph) with reranked RAG, structured outputs, and human-in-the-loop review; nDCG@10 0.749 on SciFact with a 10x smaller embedding model |
-| [GeoPulse](https://github.com/mimo1999/GeoPulse) | Transformer + GNN geopolitical risk platform, 71.6% directional accuracy at 28 days over a 53-fold walk-forward backtest |
-| [Flowify](https://github.com/mimo1999/Flowify_toolkit) | GraphRAG code comprehension tool — semantic graphs, AST analysis, MCP-compatible API, offline no-LLM mode |
-| [Multimodal AdLD Detection](https://github.com/mimo1999/asd_detector) | Cross-attention model detecting laryngeal dystonia biomarkers from audio + endoscopy; manuscript submitted to *Journal of Voice* |
-| [ChemoGAM](https://github.com/mimo1999/ChemoTreeVsDLGAM) | Interpretable GAMs for chemotherapy risk prediction on MIMIC-IV, matching CatBoost (0.826 vs 0.818 AUROC); shipped as a pip package |
+| [Clinical RAG](https://github.com/mimo1999/Clininal_guideline_RAG) | Fully offline German gynecology-guideline QA over seven DGGG/AWMF guidelines: hybrid BM25 + dense retrieval with RRF, cross-encoder reranking and guideline/document routing on a single T4, 88.9% Recall@5, 100% refusal correctness on out-of-domain questions |
+| [Research Swarm](https://github.com/mimo1999/research-swarm) | Evidence-first LangGraph research pipeline: quote-grounded fact extraction with code-located sources, a single-call verifier, and code-attached citations. It has human-in-the-loop review and runs on a small local model. A paired 90-task ablation took answer score from 0.27 to 0.44 with 2.3× fewer LLM calls |
+| [GeoPulse](https://github.com/mimo1999/GeoPulse) | GDELT global-activity monitor: PostgreSQL event graph over ~49M events with an exactly reconciled Neo4j copy, served through FastAPI and Streamlit. An audit found the earlier model results circular and retracted them |
+| [Flowify](https://github.com/mimo1999/Flowify_toolkit) | GraphRAG code explorer: multi-language AST analysis into a semantic call graph, graph-traversal retrieval instead of embeddings, with an MCP server, an offline no-LLM mode, and a live deployment |
+| [Multimodal AdLD Detection](https://github.com/mimo1999/asd_detector) | Temporal Convolutional Network with bidirectional cross-modal attention over audio and high-speed endoscopy, detecting four laryngeal dystonia biomarkers (F1 0.76, 0.86 patient-level accuracy) |
+| [ChemoGAM](https://github.com/mimo1999/ChemoTreeVsDLGAM) | Interpretable GAMs for MIMIC-IV chemotherapy complication prediction: an Explainable Boosting Machine edged CatBoost (0.826 vs 0.818 AUROC) with exact shape-function explanations instead of post-hoc SHAP |
 
 ## Tools I work with
 
-**AI / Agents:** LangGraph, MCP (including building MCP servers), RAG, tool calling, structured
-outputs, context engineering
-**Retrieval:** hybrid BM25 + dense retrieval, reranking, ChromaDB, FAISS, pgvector
-**ML / DL:** PyTorch, scikit-learn, XGBoost, Hugging Face Transformers, GNNs, TCNs
-**Infra:** Docker, FastAPI, CI/CD (Azure DevOps, GitHub Actions), Slurm/HPC, AWS/Azure/GCP
-**Languages:** Python, SQL, Java, TypeScript/JavaScript, C/C++
+**AI Systems & LLM Engineering:** Agentic AI, Multi-Agent Systems, MCP, RAG, GraphRAG, Tool Calling, Structured Outputs, Context Engineering, OpenAI/Anthropic APIs, LangGraph, LangChain
 
+**LLM Evaluation & Observability:** Ragas, LangSmith, Langfuse, MLflow, LLM-as-Judge, Evaluation Pipelines, Experiment Tracking, Model Evaluation, Benchmarking
+
+**AI Infrastructure & Serving:** FastAPI, Docker, Linux, CI/CD (Azure DevOps, Jenkins), Slurm/HPC, Model Serving, Async APIs, AWS/Azure/GCP, On-Premise Deployment, Offline Deployment
+
+**Data, Retrieval & ML:** PostgreSQL/pgvector, ChromaDB, Snowflake, Databricks, Vector Search, Hybrid Retrieval, Reranking, PyTorch, scikit-learn
+
+**Programming:** Python, SQL, C++, TypeScript/JavaScript, Java, Bash
 ## Find me
 
 - 🌐 Portfolio: [mimo1999.github.io](https://mimo1999.github.io)
 - 💼 LinkedIn: [linkedin.com/in/maitreya-mohapatra](https://www.linkedin.com/in/maitreya-mohapatra/)
 - 📫 Email: mimo.mohapatra@gmail.com
->>>>>>> origin/main
